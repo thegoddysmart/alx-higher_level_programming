@@ -2,6 +2,7 @@
 
 def to_subtract(list_num):
     to_sub = 0
+
     max_list = max(list_num)
 
     for nums in list_num:
@@ -9,7 +10,6 @@ def to_subtract(list_num):
             to_sub += nums
 
     return (max_list - to_sub)
-
 
 def roman_to_int(roman_string):
     if not roman_string:
